@@ -10,6 +10,6 @@ export default defineNuxtConfig({
     },
     modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts"],
     nitro: {
-        preset: "aws-lambda",
+        preset: "node-server",
     },
 });
