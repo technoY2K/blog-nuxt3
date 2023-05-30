@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar justify-end px-0">
+    <nav class="navbar justify-end px-0" role="navigation">
         <div>
             <button class="btn-ghost btn-square btn">
                 <svg
