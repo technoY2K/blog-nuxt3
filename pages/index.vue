@@ -1,12 +1,10 @@
 <template>
-    <div class="card bg-base-100 w-96 p-6 shadow-xl">
-        <section class="card-body">
-            <h2 class="card-title">Counter</h2>
-            <p>{{ counter }}</p>
-        </section>
-        <section class="card-actions justify-end">
-            <button class="btn btn-primary" @click="increment">Click Me</button>
-        </section>
+    <div class="flex flex-row justify-start">
+        <div>
+            <h5>Hello 👋, I'm</h5>
+            <h1>Kevia Cloud ☁️</h1>
+            <h5>Software Engineer</h5>
+        </div>
     </div>
 </template>
 
