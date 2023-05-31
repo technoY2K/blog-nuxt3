@@ -15,14 +15,36 @@ module.exports = {
                 h6: { fontSize: theme("fontSize.lg") },
             });
         }),
+        plugin(function ({ matchUtilities, theme }) {
+            matchUtilities(
+                {
+                    "animation-delay": (value) => {
+                        return {
+                            "animation-delay": value,
+                        };
+                    },
+                },
+                {
+                    values: theme("animationDelay"),
+                }
+            );
+        }),
     ],
     daisyui: {
-        darkTheme: "dracula",
+        themes: ["black"],
+        darkTheme: false,
     },
     theme: {
         extend: {
+            aspectRatio: {
+                "4/3": "4/3",
+            },
             fontFamily: {
-                sans: ["Roboto Mono", ...defaultTheme.fontFamily.sans],
+                sans: ["Righteous", ...defaultTheme.fontFamily.sans],
+                stencil: [
+                    "Saira Stencil One",
+                    ...defaultTheme.fontFamily.serif,
+                ],
             },
         },
     },
