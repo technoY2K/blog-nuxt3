@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col pt-16 lg:flex-row lg:justify-around">
+    <div class="flex flex-col pt-4 md:pt-16 lg:flex-row lg:justify-around">
         <section class="mb-8">
             <h4 class="font-stencil">Hello 👋, I'm</h4>
             <h1 class="whitespace-nowrap font-stencil">Kevia Cloud ☁️</h1>
