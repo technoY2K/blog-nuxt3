@@ -40,7 +40,7 @@ module.exports = {
                 "4/3": "4/3",
             },
             fontFamily: {
-                sans: ["Righteous", ...defaultTheme.fontFamily.sans],
+                sans: ["Poppins", ...defaultTheme.fontFamily.sans],
                 stencil: [
                     "Saira Stencil One",
                     ...defaultTheme.fontFamily.serif,

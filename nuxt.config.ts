@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     },
     googleFonts: {
         families: {
-            Righteous: true,
+            Poppins: true,
             "Saira+Stencil+One": true,
         },
     },
