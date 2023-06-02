@@ -5,7 +5,8 @@
         <HeroCopy />
         <TeleVision />
     </div>
-    <div>
+    <div class="mb-32">
         <WorkExperience />
     </div>
+    <div><ContactMe /></div>
 </template>

@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="mb-8">
-            <h3>Recent Work Experience</h3>
+            <h3 class="underline">Recent Work Experience</h3>
         </div>
         <div
             class="flex flex-col space-y-16 md:grid md:grid-cols-3 md:gap-8 md:space-y-0 lg:gap-16"
@@ -26,7 +26,7 @@
             </div>
             <div class="card bg-base-100 shadow-xl">
                 <figure>
-                    <img src="/newfold_logo.webp" alt="NewFold Logo" />
+                    <img src="/newfold_logo.webp" alt="Newfold Logo" />
                 </figure>
                 <div class="card-body">
                     <h3>Newfold Digital</h3>
