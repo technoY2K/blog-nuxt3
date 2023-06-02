@@ -9,11 +9,6 @@
                     >About</NuxtLink
                 >
             </li>
-            <li>
-                <NuxtLink to="/blog" class="font-stencil text-xl"
-                    >Blog</NuxtLink
-                >
-            </li>
         </ul>
     </nav>
 </template>

@@ -9,9 +9,12 @@
             v-show="theyLive"
             class="h-full w-full sm:grid sm:place-items-center"
         >
-            <h1 class="text-center font-bold text-black">
+            <p
+                class="text-center font-bold text-black"
+                :class="'text-2xl md:text-5xl'"
+            >
                 {{ currentMessage }}
-            </h1>
+            </p>
         </div>
         <ul
             class="absolute bottom-0 left-0 flex h-[64px] w-full flex-row justify-start gap-x-4 bg-secondary"
@@ -22,11 +25,12 @@
                 class="flex h-[64px] w-[64px] cursor-pointer items-center justify-center border-4 border-stone-400"
             >
                 <button
-                    class="h-full w-full bg-stone-900 hover:bg-stone-400 hover:text-primary"
-                    :class="{
-                        'bg-stone-400 text-primary':
-                            currentIndex === Number(index),
-                    }"
+                    class="h-full w-full hover:bg-stone-400 hover:text-primary"
+                    :class="
+                        currentIndex === Number(index)
+                            ? 'bg-stone-400 text-primary'
+                            : 'bg-stone-900'
+                    "
                     @click="currentIndex = Number(index)"
                 >
                     {{ channel }}
